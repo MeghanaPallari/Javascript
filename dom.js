@@ -77,3 +77,47 @@ console.log(e[0]);
 
 let g = document.querySelectorAll(".demo1")
 console.log(g);
+
+//event in dom
+//-->it is an action perform by end-user on a web-page.
+//-->types:
+
+//1)key-board event
+    //key-up
+    //key-down
+    //key-press
+
+//2)mouse - event
+    //onmouseover
+    //onmouseleave
+    //dbclick
+
+//3)form - event
+    //input
+    //focus
+    //blur
+
+//4)pointer - event
+   //click-event
+
+//event in dom
+//-->it is an action perform by end-user on a web-page.
+//-->types:
+
+//1)key-board event
+    //key-up
+    //key-down
+    //key-press
+
+//2)mouse - event
+    //onmouseover
+    //onmouseleave
+    //dbclick
+
+//3)form - event
+    //input
+    //focus
+    //blur
+
+//4)pointer - event
+   //click-event
