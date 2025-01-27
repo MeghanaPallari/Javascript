@@ -1,123 +1,70 @@
-// console.log(window);
-// console.log(document);
-// console.log(document.URL);
-// console.log(document.doctype);
-// console.log(document.head);
-// console.log(document.title);
-// document.title = "amazon"
-// console.log(document.body);
+// let a = document.createElement("h1")
+// console.log(a)
+// a.textContent = "hello" 
+
+// document.body.appendChild(a)
+// a.style.backgroundColor = "red"
+
+// let div = document.getElementById("demo")
+// console.log("div");
+// div.style.border = "spx solid"
+
+// let ol = document.createElement("ol")
+// console.log("ol");
+
+// div.appendChild(ol)
+
+// //create li tag
+//  let li1 = document.createElement("li")
+//  console.log("li1");
+//  li1.textContent = "react"
 
 
-// let image = document.images
-// console.log(img);
-// console.log(img[0]);
-// console.log(img[1]);
-// console.log(img[2]);
+//  ol.appendChild(li1)
 
-// for(let i=0; i<=img.length; i++){
-//     console.log(img[i]);
-//     img[i].style.height = "200px"
-//     img[i].style.width = "200px"
-//     img[i].style.borderRadius = "100%"
-//     img[i].alt = "image"
-// }
+//  let li2 = document.createElement("li")
+//  console.log("li2");
+//  li2.textContent = "node"
 
-//indirect access in dom(methods in data)
-// 1)document.getElementsById("value")
-// 2)document.getElementsByClassName("value")
-// 3)document.getElementsByTagName("value")
-// 4)document.getElementsByName("value")
-// 5)document.querySelector("value")
-// 6)document.querySelectorAll("value")
 
-let a = document.getElementById("demo")
-console.log(a)
-console.log(a.textContent)
-a.textContent = "batch 5"
-a.style.backgroundColor = "red"
-a.style.textAlign = "center"
+//  ol.appendChild(li2)
 
-// 2)document.getElementsByClassName("value")
+//  ol.setAttribute("type" , "A")
 
-let a1 = document.getElementsByClassName("demo1")
-console.log(a1);
-console.log(a1[0]);
-console.log(a1[0].textContent);
-a1[0].textContent = "hello world"
-a1[0].style.cplor = "red"
-console.log(a1[1]);
+ //create 4X4 table
 
-// 3)document.getElementsByTagName("value")
+ // create table tag
+ let table =document.createElement("table")
+console.log("table")
+table.setAttribute("border" , "2px solid black")
 
-let b = document.getElementsByTagName("ol")
-console.log(b);
-console.log(b[1]);
-b[1].style.backgroundColor = "crimson"
+document.body.appendChild(table)
 
-// 4)document.getElementsByName("value")
+let tr1 = document.createElement("tr")
+console.log("tr1")
 
-let c = document.getElementsByName("demo2")
-console.log(c);
-console.log(c[1]);
+table.appendChild(tr1)
 
-let f = document.querySelector(".demo1")
-console.log(f);
+let td1=document.createElement("td")
+console.log("td1");
+td1.textContent = "html"
 
-//document.querySelector
-//-->value should be passes using css symbol
-//-->will return reference of first element
-let d = document.querySelector("#demo")
-console.log(d);
-//document.querySelectorAll
-//-->value should be passes using css symbol
-//-->will return reference of node-list
-let e = document.querySelectorAll("#demo")
-console.log(e);
-console.log(e[0]);
+tr1.appendChild(td1)
 
-let g = document.querySelectorAll(".demo1")
-console.log(g);
+let td2=document.createElement("td")
+console.log("td2");
+td2.textContent = "html"
 
-//event in dom
-//-->it is an action perform by end-user on a web-page.
-//-->types:
+tr1.appendChild(td2)
 
-//1)key-board event
-    //key-up
-    //key-down
-    //key-press
+let td3=document.createElement("td")
+console.log("td3");
+td3.textContent = "html"
 
-//2)mouse - event
-    //onmouseover
-    //onmouseleave
-    //dbclick
+tr1.appendChild(td3)
 
-//3)form - event
-    //input
-    //focus
-    //blur
+let td4=document.createElement("td")
+console.log("td4");
+td4.textContent = "html"
 
-//4)pointer - event
-   //click-event
-
-//event in dom
-//-->it is an action perform by end-user on a web-page.
-//-->types:
-
-//1)key-board event
-    //key-up
-    //key-down
-    //key-press
-
-//2)mouse - event
-    //onmouseover
-    //onmouseleave
-    //dbclick
-
-//3)form - event
-    //input
-    //focus
-    //blur
-
-//4)pointer - event
-   //click-event
+tr1.appendChild(td4)

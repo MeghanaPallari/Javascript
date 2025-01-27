@@ -1,51 +1,16 @@
-//DOM (Document object model)
-BOM(browser Object model)
+modification/manipulation of DOM
+--------------------------------
+-->updating/modify of DOM.
 
-//BOM-browser object model-to contact to bom we have to go through window
-//DOM-document object model-inside dom we are having root element which is document,inside document all html code will be stored in tree kind of structure.
-//html divided into 2 parts one is head and another is body.inside head we are having meta tag & title tag.inside body tag all the tags are present
-  +------------------+
-|       DOM        |
-+------------------+
-         |
-         v
-+------------------+
-|    document      |
-+------------------+
-         |
-         v
-+------------------+
-|      HTML        |
-+------------------+
-     /       \
-    v         v
-+---------+ +---------+
-|  HEAD   | |  BODY   |
-+---------+ +---------+
-   |           |        
-   v           v
-+---------+ +----------+       
-| META    | |   DIV    |       
-+---------+ |          |        
-   |       | +--------+ |        
-   v       | |  SPAN  | |        
-+---------+ | +--------+ |        
-| TITLE   | | |   OL   | |        
-+---------+ | +--------+ |        
-             |   |   |        
-             v   v   v       
-           +----+----+-----+   
-           | LI | LI | LI  |   
-           |ITEM1  ITEM2  ITEM3|
-           +------------------+
-                   |
-            +---------------+     
-            |    FORM       |     
-            +---------------+
-              |         |
-          +-------+ +--------+
-          |LABEL  | | INPUT  |
-          +-------+ +--------+
-             |
-           NAME
+//method
+createElement()
 
+step 1:-create an element using a createElement()
+eg:- 
+     let a = document.createElement("hi")
+     console.log(a) //<h1></h1>
+     a.textContent = "hello" //<h1>hello</h1>
+
+step 2:- append element to the parent element using append/appendchild()
+eg:- 
+     document.body.appendchild(a) //here a is parent
