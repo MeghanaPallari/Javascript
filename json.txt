@@ -1,0 +1,19 @@
+JSON (java Script object notation)
+IT is a plain text file where data will be stored in the form of key and value pair where all keys enclosed with double quotes
+
+api ---> two types
+1.SOAP-Source Object Access Protocol -->HTTP,XHR(XML HTTP request ,also called AJAX)
+2.REST-Representational State Transfer---> JSON it support more than 21 programming languages 
+
+how to create JSON
+----------------------------------------------------
+sTEP 1: Create a .json file 
+Step 2: to create json we cannot use undefined 
+        and function data-types    
+        will store data in a [{}, {} ,  
+
+        methods of json
+
+
+
+        https://pixabay.com/api/?key=48474890-3e93eaae567469fe0902fd609&q=yellow+flowers&image_type=photo&pretty=true&per_page=${page}
